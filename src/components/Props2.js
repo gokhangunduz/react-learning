@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 function Props({p}) {
     return(
         <>
-        <h1>Props 2</h1>
+        <h2>Props 2</h2>
         <p>{p}</p>
         </>
     )
@@ -10,6 +10,9 @@ function Props({p}) {
 
 Props.propTypes = {
     p: PropTypes.string.isRequired
+}
+Props.defaultProps = {
+    p: "Default Prop"
 }
 
 export default Props
