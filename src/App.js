@@ -1,6 +1,7 @@
 import Props from "./components/Props";
 import Props2 from "./components/Props2";
 import UseState from "./components/UseState";
+import UseEffect from "./components/UseEffect";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <Props2 />
       <hr/>
       <UseState />
+      <UseEffect />
     </>
   );
 }
