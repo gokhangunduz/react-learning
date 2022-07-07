@@ -7,6 +7,7 @@ function App() {
       <Props p="Lorem Ipsum" />
       <Props2 p="Lorem Ipsum 2" />
       <Props2 />
+      <hr/>
       <UseState />
     </>
   );
