@@ -1,9 +1,10 @@
+import Props from "./components/Props";
+import Props2 from "./components/Props2";
 function App() {
   return (
     <>
-    <div>
-      Test
-    </div>
+    <Props p="Lorem Ipsum" />
+    <Props2 p="Lorem Ipsum 2" />
     </>
   );
 }
